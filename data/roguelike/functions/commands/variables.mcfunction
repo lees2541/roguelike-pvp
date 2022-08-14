@@ -1,0 +1,9 @@
+scoreboard objectives add cp_start trigger
+scoreboard objectives add cp_help trigger
+scoreboard objectives add cp_slayer trigger
+scoreboard objectives add cp_tanker trigger
+scoreboard objectives add cp_archer trigger
+scoreboard objectives add cp_nuker trigger
+scoreboard objectives add cp_lancer trigger
+scoreboard objectives add cp_get_red trigger
+scoreboard objectives add cp_get_blue trigger

@@ -1,5 +1,5 @@
 {
     "values": [
-	    "rpgslayer_init:init"
+	    "roguelike:system/init"
     ]
 }
