@@ -1,0 +1,63 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "제단의 검",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "의식에 사용된 제단의 검",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "name": "knockback",
+        "amount": 0.35,
+        "operation": "addition",
+        "id": "c28f32b0-0ae0-4484-8816-db448d7c9f30",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "name": "speed",
+        "amount": -0.01,
+        "operation": "addition",
+        "id": "127c21e6-43ee-401b-9ac4-392f9c171cc9",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 17,
+        "operation": "addition",
+        "id": "933b4c7c-4313-4d7a-bd96-926ee7b2e5aa",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "",
+        "amount": -3.55,
+        "operation": "addition",
+        "id": "70d813ff-65b8-4f45-a07a-1397e76875e8",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:1121,Unbreakable:1b}"
+  }
+]

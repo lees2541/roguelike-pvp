@@ -1,0 +1,1 @@
+give @s minecraft:splash_potion{HideFlags:32,sl_potion:1b,display:{Name:'{"text":"붉은 피로 물든 포션","color":"light_purple","bold":false,"italic":false}',Lore:['{"text":"제물로 만들어진 희생의 영약","color":"gray","bold":false,"italic":false}']},CustomPotionEffects:[{Id:6b,Amplifier:2b,Duration:1}],CustomPotionColor:5373952} 1

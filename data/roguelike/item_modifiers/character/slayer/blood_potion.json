@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_name",
     "name": {
-      "text": "어두운 룬 검",
+      "text": "붉은 피로 물든 포션",
       "color": "light_purple",
       "bold": false,
       "italic": false
@@ -12,18 +12,15 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "어둡지만 빛이 나는 기이한 검이다.",
+        "text": "제물로 만들어진 희생의 영약",
         "color": "gray",
         "bold": false,
         "italic": false
-      },
-      {
-        "text": ""
       }
     ]
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{HideFlags:63,Unbreakable:1b,CustomModelData:324,darkrune:1b}"
+    "tag": "{HideFlags:32,sl_potion:1b,CustomPotionEffects:[{Id:6b,Amplifier:2b,Duration:1}],CustomPotionColor:5373952}"
   }
 ]

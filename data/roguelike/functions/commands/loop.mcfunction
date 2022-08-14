@@ -7,3 +7,4 @@
 # scoreboard players enable @a cp_lancer
 # scoreboard players enable @a cp_get_re
 # scoreboard players enable @a cp_get_bl
+function roguelike:commands/slayer
