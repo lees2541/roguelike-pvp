@@ -9,7 +9,7 @@ execute at @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{darkrune:
 execute at @a[scores={sl_dark_rune=1..}] run particle minecraft:smoke ~ ~ ~ 1 1 1 0.4 800
 execute at @a[scores={sl_dark_rune=1..}] run particle minecraft:flame ~ ~ ~ 1 1 1 0.4 800
 execute at @a[scores={sl_dark_rune=1..}] run playsound minecraft:entity.ender_dragon.ambient master @a[distance=..20]
-effect give @a[scores={sl_dark_rune=1..}] haste 7 10 false
+effect give @a[scores={sl_dark_rune=1..}] haste 7 8 false
 effect give @a[scores={sl_dark_rune=1..}] absorption 7 1 false
 effect give @a[scores={sl_dark_rune=1..}] speed 7 1 false
 effect give @a[scores={sl_dark_rune=1..}] weakness 7 0 false

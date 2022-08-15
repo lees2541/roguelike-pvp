@@ -1,0 +1,1 @@
+item modify entity @s hotbar.0 roguelike:character/slayer/tsumi_sword

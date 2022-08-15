@@ -1,0 +1,55 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "푸른 밤의 투구",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "동방 명장이 푸른 밤을 보고 만든 방어구",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.armor",
+        "name": "",
+        "amount": 2,
+        "operation": "addition",
+        "id": "143d6b6b-cc54-4633-869e-6a7b0b161582",
+        "slot": "head"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 0.03,
+        "operation": "multiply_base",
+        "id": "a3462946-f10f-4928-b9d1-8991da9c2d78",
+        "slot": "head"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "name": "",
+        "amount": 0.04,
+        "operation": "multiply_base",
+        "id": "b3e4b96b-c996-4789-a3de-8846d90e97f2",
+        "slot": "head"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{color:1123487},HideFlags:68,Unbreakable:1b}"
+  }
+]

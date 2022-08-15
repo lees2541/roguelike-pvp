@@ -1,1 +1,2 @@
 function roguelike:character/slayer/variables
+function roguelike:character/archer/variables

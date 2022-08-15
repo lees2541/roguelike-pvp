@@ -1,0 +1,63 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "푸른 밤의 튜닉",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "동방 명장이 푸른 밤을 보고 만든 방어구",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.armor",
+        "name": "",
+        "amount": 4,
+        "operation": "addition",
+        "id": "cf408130-038d-4a35-af1a-54f9b368b8f1",
+        "slot": "chest"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 0.06,
+        "operation": "multiply_base",
+        "id": "b9e35840-09ce-4fcc-a8ce-205696d6e9d1",
+        "slot": "chest"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "name": "",
+        "amount": 0.06,
+        "operation": "multiply_base",
+        "id": "43dc62d1-d64c-4606-b4d1-b863143716db",
+        "slot": "chest"
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "",
+        "amount": 2,
+        "operation": "addition",
+        "id": "83a74fcf-cc25-4a45-8e30-65104f6b5bbf",
+        "slot": "chest"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{color:720978},HideFlags:68,Unbreakable:1b}"
+  }
+]

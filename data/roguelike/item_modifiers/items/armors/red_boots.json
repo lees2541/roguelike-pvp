@@ -1,0 +1,79 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "블러드 나이츠 제식 각반",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "영원을 기약할 때 입었던 방어구",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "",
+        "amount": 2,
+        "operation": "addition",
+        "id": "a8c92c20-ca37-47e7-91e1-848d842f19f5",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "",
+        "amount": 0.03,
+        "operation": "multiply_base",
+        "id": "9cccee0a-a9c6-4668-b0c9-4db208caa6a1",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "name": "",
+        "amount": 0.01,
+        "operation": "multiply_total",
+        "id": "ad143370-43f2-4e29-86f5-e439dbfca03f",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 0.01,
+        "operation": "multiply_total",
+        "id": "4b0b82b3-075e-4598-a75f-75d80262dfd7",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "name": "",
+        "amount": 1,
+        "operation": "addition",
+        "id": "500afb05-c4b3-4bc7-830e-b66c128aff2d",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "",
+        "amount": 0.1,
+        "operation": "addition",
+        "id": "622c7093-b862-4a94-99e9-0e89c7fb3b68",
+        "slot": "feet"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Unbreakable:1,HideFlags:5}"
+  }
+]

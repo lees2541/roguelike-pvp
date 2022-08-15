@@ -1,3 +1,5 @@
-scoreboard players enable @a cp_slayer
-execute as @a[scores={cp_slayer=1..}] run function roguelike:character/slayer/init
-scoreboard players set @a[scores={cp_slayer=1..}] cp_slayer 0
+
+function roguelike:character/slayer/init
+function roguelike:commands/apply_armor
+scoreboard players set @s cp_slayer 0
+scoreboard players enable @s cp_slayer

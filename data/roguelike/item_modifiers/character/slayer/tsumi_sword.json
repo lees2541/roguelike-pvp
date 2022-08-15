@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_name",
     "name": {
-      "text": "제단의 검",
+      "text": "죄의 대검",
       "color": "aqua",
       "bold": false,
       "italic": false
@@ -12,7 +12,13 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "의식에 사용된 제단의 검",
+        "text": "금단의 제사에 사용된 검",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "그 죄악의 정도는 말로 표현할 수 없다.",
         "color": "gray",
         "bold": false,
         "italic": false
@@ -58,6 +64,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:1121,Unbreakable:1b,HideFlags:4}"
+    "tag": "{CustomModelData:1122,Unbreakable:1b,HideFlags:4}"
   }
 ]

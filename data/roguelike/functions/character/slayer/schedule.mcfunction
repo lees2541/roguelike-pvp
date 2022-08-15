@@ -1,9 +1,7 @@
-# 슬레이어 특성
-effect give @a[tag=slayer] haste 3 2 true
-effect give @a[tag=slayer] resistance 3 0 true
 
-tellraw @a[tag=slayer,scores={sl_potion=12},nbt=!{Inventory:[{id:"minecraft:splash_potion",tag:{sl_potion:1b}}]}] {"text":"[Skill] Dark Heal is ready.","color":"dark_red","bold":true,"italic":false}
-tellraw @a[tag=slayer,scores={sl_skill=25}] {"text":"[Ulti] Dark Rune is ready.","color":"dark_gray","bold":true,"italic":false}
+
+tellraw @a[tag=slayer,scores={sl_potion=12},nbt=!{Inventory:[{id:"minecraft:splash_potion",tag:{sl_potion:1b}}]}] {"text":"[클래스 PVP] 포션이 재생성되었습니다.","color":"gray","bold":false,"italic":false}
+tellraw @a[tag=slayer,scores={sl_skill=25}] {"text":"[클래스 PVP] 다크 룬 검을 사용 가능합니다.","color":"gray","bold":false,"italic":false}
 
 execute as @a[tag=slayer,scores={sl_potion=12},nbt=!{Inventory:[{id:"minecraft:splash_potion",tag:{sl_potion:1b}}]}] run function roguelike:character/slayer/blood_potion
 
