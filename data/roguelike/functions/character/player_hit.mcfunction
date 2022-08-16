@@ -1,0 +1,1 @@
+function roguelike:character/paladin/player_hit

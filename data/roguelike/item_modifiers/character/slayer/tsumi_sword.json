@@ -3,7 +3,7 @@
     "function": "minecraft:set_name",
     "name": {
       "text": "죄의 대검",
-      "color": "aqua",
+      "color": "light_purple",
       "bold": false,
       "italic": false
     }

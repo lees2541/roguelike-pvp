@@ -1,0 +1,39 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "저주의 나무 검",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "생명을 흡수하는 나무로 만들어진 검",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 2.7,
+        "operation": "addition",
+        "id": "64f09c03-6c8e-419b-b5b0-0982d210dff2",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{HideFlags:4,Unbreakable:1b,CustomModelData:19302,move_curse:1b}"
+  }
+]

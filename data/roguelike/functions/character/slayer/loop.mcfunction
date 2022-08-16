@@ -4,7 +4,7 @@
 scoreboard players set @a[scores={USED_CARROTSTICK=1..,sl_skill=25..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{darkrune:1b}}}] sl_dark_rune 1
 scoreboard players set @a[scores={USED_CARROTSTICK=1..,sl_skill=25..},nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{darkrune:1b},Slot:-106b}]}] sl_dark_rune 1
 
-execute at @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{darkrune:1b}}},scores={damage_dealt=1..}] run scoreboard players set @e[distance=..10,scores={damage_taken=1..}] sl_slow 1
+execute at @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{darkrune:1b}}},scores={DMG_DEALT=1..}] run scoreboard players set @e[distance=..10,scores={DMG_TAKEN=1..}] sl_slow 1
 
 execute at @a[scores={sl_dark_rune=1..}] run particle minecraft:smoke ~ ~ ~ 1 1 1 0.4 800
 execute at @a[scores={sl_dark_rune=1..}] run particle minecraft:flame ~ ~ ~ 1 1 1 0.4 800

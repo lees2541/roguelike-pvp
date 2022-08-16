@@ -1,0 +1,1 @@
+execute if score .tanker_ulti pl_skill matches 2 run function roguelike:character/paladin/lightning_on_hurt

@@ -1,5 +1,6 @@
 {
 	"values": [
-	"roguelike:system/loop"
+	  "roguelike:system/loop",
+    "entity_hit_matching:tick"
 	]
 }

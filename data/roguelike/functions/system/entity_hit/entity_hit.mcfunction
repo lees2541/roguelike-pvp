@@ -1,0 +1,1 @@
+function roguelike:character/entity_hit

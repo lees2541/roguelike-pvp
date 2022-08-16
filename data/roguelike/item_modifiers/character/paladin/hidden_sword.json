@@ -1,0 +1,53 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "장인의 명검",
+      "color": "light_purple",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "동방 명장이 숨겨둔 가문의 은검",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:sweeping": 10
+    }
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "",
+        "amount": -2.34,
+        "operation": "addition",
+        "id": "84e358d1-6d9a-4595-9c73-4f349deaeba7",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 8,
+        "operation": "addition",
+        "id": "974ad446-a4e7-46b5-b283-14b4b61d1aac",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{HideFlags:5,Unbreakable:1b,CustomModelData:133280}"
+  }
+]

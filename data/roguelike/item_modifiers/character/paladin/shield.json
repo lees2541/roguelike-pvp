@@ -1,0 +1,39 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "암월의 방패",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "동방 명장이 왕실 친위대에 하사한 물품",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "name": "",
+        "amount": -0.12,
+        "operation": "multiply_total",
+        "id": "32935c05-b84d-4037-b600-03744b843940",
+        "slot": "offhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{tanker_shield:1b,BlockEntityTag:{Patterns:[{Color:15,Pattern:\"hh\"},{Color:0,Pattern:\"mc\"},{Color:11,Pattern:\"flo\"},{Color:15,Pattern:\"bt\"},{Color:8,Pattern:\"gru\"},{Color:11,Pattern:\"cbo\"}]},Unbreakable:1,HideFlags:37}"
+  }
+]

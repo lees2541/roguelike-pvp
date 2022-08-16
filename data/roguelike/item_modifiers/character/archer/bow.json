@@ -25,7 +25,7 @@
       {
         "attribute": "minecraft:generic.movement_speed",
         "name": "",
-        "amount": -0.07,
+        "amount": -0.12,
         "operation": "multiply_base",
         "id": "2a9e67a0-0219-44dc-a091-5adbccf01f1a",
         "slot": "mainhand"
@@ -33,7 +33,7 @@
       {
         "attribute": "minecraft:generic.movement_speed",
         "name": "",
-        "amount": -0.07,
+        "amount": -0.12,
         "operation": "multiply_base",
         "id": "4dfc53ea-8e12-4850-af0c-b717ea800f51",
         "slot": "offhand"
