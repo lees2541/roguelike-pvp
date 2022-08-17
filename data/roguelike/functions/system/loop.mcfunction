@@ -1,3 +1,4 @@
+kill @e[type=arrow,nbt={inGround:1b}]
 
 function roguelike:character/loop
 function roguelike:commands/loop

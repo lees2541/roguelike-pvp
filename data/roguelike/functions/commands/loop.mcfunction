@@ -10,6 +10,8 @@
 execute as @a[scores={cp_get_red=1..}] run function roguelike:commands/set_armor
 execute as @a[scores={cp_get_blue=1..}] run function roguelike:commands/set_armor
 
+execute as @a[scores={cp_give_manapotion=1..}] run function roguelike:commands/give_manapotion
+
 execute as @a[scores={cp_slayer=1..}] run function roguelike:commands/slayer
 execute as @a[scores={cp_paladin=1..}] run function roguelike:commands/paladin
 execute as @a[scores={cp_archer=1..}] run function roguelike:commands/archer
